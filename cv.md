@@ -3,10 +3,10 @@
 ### Contact Information
 * Cell phone: +375297635150
 * E-mail: o.bukhal@gmail.com
-* [GitHub](https://github.com/VolhaBukhal) 
+* GitHub: [VolhaBukhal](https://github.com/VolhaBukhal) 
 
 ### About myself
-Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении и способности быстро учиться и узнавать новое)
+I am a scintist for a more then 10 year in a fild of physics and radioecologist by specialisation. But for the last year I am intresting in fronend development and have an goul to change my job  in upcoming year. I like see the resul imidiate of the work and frontend is ideal for that. Simultaniouslyi I know that imidiate result and frontend could be only after hardworking and exosting stady, and my slogan  - never give up and keep going studing and prectice.     
 
 ### Scills
 * HTML&CSS
@@ -15,19 +15,35 @@
 * Gulp/Parcel
 * Git
 * JavaScrit basic
-(языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
+* Blind typing (Belarusian/Russian/English)
 
 ### My works
-Примеры кода
+My works are (in general projects during study ) in GitHub repositories.
 
 ### Experience
-Junior Dev может указать пройденные курсы и тренинги, перечислить учебные проекты, или проекты, выполненные на фрилансе с указанием использованных навыков и ссылками на исходный код.
+* Udemy course
+* IT school TeachMeSkills
+* Self stading by youtube, mdn, learnjavascript
+
 
 ### Background
-Образование (включая курсы, семинары, лекции, онлайн-обучение)
+I have not experience in frontend yet.
+
+
 
 ### English
-(уровень английского языка, если была языковая практика, расскажите о ней)
+* Lave - B2
+
+### Hobbies
+I am a keen person, and have a lot of hobbies
+* First is sport: 
+  * volleyball - hole year,
+  * ski and skate in winter.
+* Second is music: all my life I desire to play the piano and only now my dream start coming to true. I've started learning to play the piano in 2020 and really like it.  
+
+
+
+
 
 
 
