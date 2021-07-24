@@ -6,7 +6,7 @@
 * GitHub: [VolhaBukhal](https://github.com/VolhaBukhal) 
 
 ### About myself
-I am a scintist for a more then 10 year in a fild of physics and radioecologist by specialisation. But for the last year I am intresting in fronend development and have an goul to change my job  in upcoming year. I like see the resul imidiate of the work and frontend is ideal for that. Simultaniouslyi I know that imidiate result could be only after hardworking and exosting stady and don't afraid of it, my slogan  - never give up and keep going studing and prectice.     
+I have been working as scintist for a more then 10 year in a fild of physics and radioecologist by specialisation. But for the last year I am intresting in fronend development and have an goul to change my job in upcoming year. I like see the resul imidiate of the work and frontend is ideal for that. Simultaniouslyi I know that imidiate result could be only after hardworking and exosting stady and don't afraid of it, my slogan - never give up and keep going studing and practice.  
 
 ### Scills
 * HTML&CSS
@@ -18,7 +18,7 @@ I am a scintist for a more then 10 year in a fild of physics and radioecologist 
 * Blind typing (Belarusian/Russian/English)
 
 ### My works
-My works are (in general there are projects during studing ) on GitHub repositories.
+My works are (there are projects created during studing ) on GitHub repositories.
 ``` JavaScrit
 function sortArray(array) {
   let arr = [...array];  
@@ -36,11 +36,9 @@ function sortArray(array) {
 ### Experience
 * Udemy course: [WEB-разработчик 2020](https://www.udemy.com/course/webdeveloper/learn/lecture/21483582?start=0#overview)
 * IT school TeachMeSkills: [Front End разработчик](https://teachmeskills.by/kursy-programmirovaniya/frontend-html-css-javascript-minsk)
-* Self stading on youtube, mdn, learn.javascript.ru
-
 
 ### Background
-I have not experience in frontend yet.
+I have not experience in frontend production yet.
 
 ### English
 * B2
