@@ -10,7 +10,7 @@
     color: #2b2a2a; 
 }  
   .wrapper{
-    max-width: 1170px;
+    max-width: 1050px;
     margin: 0 auto;
     padding: 0 15px;
     background-color: #edf0f1;
@@ -86,7 +86,7 @@
 }
 
 .contacts__row {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -125,7 +125,7 @@
 }
 
 .skill__row {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 0 30px;
     display: flex;
     justify-content: space-evenly;
@@ -181,7 +181,7 @@ pre{
 }
 
 .more__row {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -189,7 +189,7 @@ pre{
 }
 
 .more-subtitle {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
     color:  #868585;
     font-size: 1.2rem;
