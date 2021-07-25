@@ -91,6 +91,9 @@
     justify-content: space-evenly;
     align-items: center;
 }
+.contacts__row li{
+    list-style: none;
+}
 .contacts-phone,
 .contacts-email,
 .contacts-github {
