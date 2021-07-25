@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Volha Bukhal</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__row">
+                <div class="header-left">
+                    <h1 class="title header-title">Volha Bukhal</h1>
+                    <h2 class="header-subtitle">Beginner web developer</h2>
+                </div>
+                <div class="header-img__wrapper">
+                    <img src="./images/main.JPG" alt="cv-picture" class="header-img__wrapper_img" width="250" height="250">
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="contacts">
+                <h2 class="title contacts-title">Contacts</h2>
+                <div class="contacts__row">
+                    <div class="contacts-phone">Cell phone: +375297635150</div>
+                    <div class="contacts-email">E-mail: o.bukhal@gmail.com</div>
+                    <div class="contacts-github">
+                        <a class="contacts-github__link" href="https://github.com/VolhaBukhal" target="_blank">GitHub: VolhaBukhal</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-me">
+                <h2 class="title about-me-title">About myself</h2>
+                <div class="about-me__descr">
+                  <p>I have been working as scintist for a more then 10 year in a fild of physics
+                    and radioecologist by specialisation. But for the last year I am intresting 
+                    in fronend development and have an goul to change my job in upcoming year. 
+                    I like see the resul imidiate of the work and frontend is ideal for that. 
+                    Simultaniouslyi I know that imidiate result could be only after hardworking 
+                    and exosting stady and don't afraid of it, my slogan - <q>never give up 
+                    and keep going studing and practice</q>.</p>
+                </div>
+            </section>
+
+            <section class="skill">
+                <h2 class="title skill-title">My skills</h2>
+                <div class="skill__row">
+                    <ul class="list skill-list list">
+                        <li class="list__item skill-list__item">HTML&CSS</li>
+                        <li class="list__item skill-list__item">SCSS/SASS/LESS</li>
+                        <li class="list__item skill-list__item">Markdown</li>
+                        <li class="list__item skill-list__item">Blind typing (Belarusian/Russian/English)</li>
+                    </ul>    
+                    <ul class="list skill-list">
+                        <li class="list__item skill-list__item">Gulp/Parcel</li>
+                        <li class="list__item skill-list__item">Git</li>
+                        <li class="list__item skill-list__item">JavaScrit basic</li>
+                    </ul> 
+                </div>
+
+            </section>
+
+            <section class="experience-work">
+                <h2 class="title experience-work-title">My experience and work</h2>
+                <div class="experience-work__row">
+                    <ul class="list experience-work-list">
+                        <li class="list__item experience-work__item">
+                            <a href="https://www.udemy.com/course/webdeveloper/learn/lecture/21483582?start=0#overview">Udemy course: WEB-developer 2020</a>
+                        </li>
+                        <li class="list__item experience-work__item">
+                            <a href="https://teachmeskills.by/kursy-programmirovaniya/frontend-html-css-javascript-minsk">IT school TeachMeSkills: Front End developer</a>
+                        </li>
+                    </ul>
+                    <div class="experience-work__right">
+                        <div class="experience-work__descr"></div>
+                        <div class="experience-work__code">
+                            <code>
+<pre>
+// Sort the odd
+function sortArray(array) {
+    let arr = [...array];  
+    let sortedOddNumber = arr.filter( (num) => num%2).sort( (a, b) => a - b);
+    
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i]%2) {
+        [first, ...sortedOddNumber] = sortedOddNumber;
+        arr[i] = first;
+        }
+    }
+    return arr;
+    }
+</pre>
+                            </code>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+            
+            <section class="more">
+                <h2 class="title more-title">More about myself</h2>
+                <div class="more__row">
+                    <div class="more-background">
+                        <h3 class="more-subtitle">Background</h3>
+                        <div class="more-background__descr">
+                            I have not experience in frontend production yet, only studing projects.
+                        </div>
+                    </div>
+                    <div class="more-languages">
+                        <h3 class="more-subtitle">Language</h3>
+                        <div class="list">
+                            <li class="list-item">English / B2</li>
+                            <li class="list-item">Belarusian / C2</li>
+                            <li class="list-item">Russian / C2</li>
+                        </div>
+                    </div>
+                    <div class="more-hobbies">
+                        <h3 class="more-subtitle">Hobbies</h3>
+                        <div class="list">
+                            <li class="list-item">Sport: voleyball, ski&skates</li>
+                            <li class="list-item">Music: All my life I desire to play the piano and only now my dream start coming true. I've started learning to play the piano in 2020 and really like it.</li>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+        </main>
+    </div>
+
+
+
+    
+</body>
+</html>
