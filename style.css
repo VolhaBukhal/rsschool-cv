@@ -134,9 +134,7 @@
 }
 
 .list {
-    width: 50%;
     list-style: none;
-
 }
 .list__item {
     padding: 8px 0;
@@ -147,16 +145,17 @@
 .experience-work {
     padding-top: 30px;
 }
+.experience-work-title::after {
+    width: 380px;
+}
 
 .experience-work__row {
     margin-top: 20px;
     padding: 0 30px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: start;
-}
-.experience-work-list {
-    width: 50%;
 }
 
 .experience-work__item a{
@@ -167,25 +166,24 @@
 
 .experience-work__item a:hover {
     color: #f4c135;;
-    
 }
 
-.experience-work__right {
-    width: 50%;
-
-}
 .experience-work__code{
     background-color:#dbdcdd;
+}
+pre{
+    font-size: 0.7rem;
 }
 
 /* more section  */
 .more {
-    padding: 30px;
+    padding-top: 30px;
 }
 
 .more__row {
     margin-top: 30px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     justify-self: center;
 }
@@ -207,18 +205,51 @@
     width: 30%;
     line-height: 1.5rem;
 }
-.list {
-    width: 100%;
+.more-list {
     text-align: center;
 }
-.list-item {
-}
+
 .more-hobbies {
     width: 30%;
     line-height: 1.5rem;
 }
-.list-item_music {
+
+/* footer section  */
+.footer__row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.footer_github-link{
+    text-decoration: none;
+    color: #2b2a2a;
+}
+
+.footer_github-link svg{
+    transition: 0.4s all ease;
+}
+
+.footer_github-link svg:hover{ 
+    fill: #f4c135;
+}
+
+.footer_github-link,
+.footer__logo,
+.footer__logo svg {
+    transition: 0.4s ease;
+}
+.footer__logo svg:hover{ 
+    fill: #f4c135;
+}
+
+.footer_github-link:hover,
+.footer_github-link:hover {
+    color: #f4c135;
+}
+
+
+
 
 
 
