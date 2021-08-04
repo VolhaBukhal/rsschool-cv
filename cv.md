@@ -6,7 +6,7 @@
 * GitHub: [VolhaBukhal](https://github.com/VolhaBukhal) 
 
 ### About myself
-I have been working as scintist for a more then 10 year in a fild of physics and radioecologist by specialisation. But for the last year I am intresting in fronend development and have an goul to change my job in upcoming year. I like see the resul imidiate of the work and frontend is ideal for that. Simultaniouslyi I know that imidiate result could be only after hardworking and exosting stady and don't afraid of it, my slogan - never give up and keep going studing and practice.  
+I have been working as scientist for a more then 10 year in a field of physics and radioecologist by specialization. But for the last year I am interesting in frontend development and have an goal to change my job in upcoming year. I like see the result immediate of the work and frontend is ideal for that. Simultaneously I know that immediate result could be only after hardworking and existing study and don't afraid of it, my slogan - never give up and keep going studding and practice. 
 
 ### Scills
 * HTML&CSS
