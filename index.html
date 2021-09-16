@@ -10,18 +10,47 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="header__row">
-                <div class="header-left">
-                    <h1 class="title header-title">Volha Bukhal</h1>
-                    <h2 class="header-subtitle">Beginner web developer</h2>
-                </div>
-                <div class="header-img__wrapper">
-                    <img src="./images/main.JPG" alt="cv-picture" class="header-img__wrapper_img" width="250" height="250">
-                </div>
+            <div class="container">
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__list-item">
+                            <a href="#contacts" class="header__list-item_link">Contacts</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#about-me" class="header__list-item_link">About me</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#skill" class="header__list-item_link">Skills</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#experience" class="header__list-item_link">Experience</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#more" class="header__list-item_link">More</a>
+                        </li>
+                    </ul>
+                    <div class="burger">
+                        <span></span>
+                    </div>
+                </nav>
             </div>
         </header>
         <main>
-            <section class="contacts">
+            <section class="introduction">
+                <div class="container">
+                    <div class="introduction__row">
+                        <div class="introduction-left">
+                            <h1 class="title introduction-title">Volha Bukhal</h1>
+                            <h2 class="introduction-subtitle">Beginner web developer</h2>
+                        </div>
+                        <div class="introduction-img__wrapper">
+                            <img src="./images/main.JPG" alt="cv-picture" class="introduction-img__wrapper_img" width="250" height="250">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contacts" id="contacts">
                 <h2 class="title contacts-title">Contacts</h2>
                 <ul class="contacts__row">
                     <li class="contacts-phone">Cell phone: +375297635150</li>
@@ -32,7 +61,7 @@
                 </ul>
             </section>
 
-            <section class="about-me">
+            <section class="about-me" id="about-me">
                 <h2 class="title about-me-title">About myself</h2>
                 <div class="about-me__descr">
                   <p>I have been working as scientist for a more then 10 year in a field of physics
@@ -45,7 +74,7 @@
                 </div>
             </section>
 
-            <section class="skill">
+            <section class="skill" id="skill">
                 <h2 class="title skill-title">My skills</h2>
                 <div class="skill__row">
                     <ul class="list skill-list list">
@@ -63,7 +92,7 @@
 
             </section>
 
-            <section class="experience-work">
+            <section class="experience-work" id="experience">
                 <h2 class="title experience-work-title">My experience and work</h2>
                 <div class="experience-work__row">
                     <ul class="list experience-work-list">
@@ -99,7 +128,7 @@ function sortArray(array) {
                 </div>
             </section>
             
-            <section class="more">
+            <section class="more" id="more">
                 <h2 class="title more-title">More about myself</h2>
                 <div class="more__row">
                     <div class="more-background">
