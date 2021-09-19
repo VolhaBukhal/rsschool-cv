@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Volha Bukhal</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="default.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
     <div class="wrapper">
@@ -129,79 +133,96 @@
 
             <section class="section experience" id="experience">
                 <h2 class="title experience-work-title">My experience</h2>
+                <div class="experience-work__row">
+                    <!-- <div class="experience-item"> -->
+                        <!-- <a href="#" class="experience-item__link">
+                            <img src="./images/works/code-example.png" alt="code-example" class="experience-item__img">
+                        </a> -->
+                        <!-- <div class="modal">
+                            <button class="close-modal">&times;</button>
+        <pre>
+            <code>
+        function sortArray(array) {
+            let arr = [...array];  
+            let oddNumber = arr.filter( (num) => num%2);
+            let sortedOddNumber = oddNumber.sort( (a, b) => a - b);
+            for (let i = 0; i &lt; arr.length; i++) {
+                if (arr[i]%2) {
+                [first, ...sortedOddNumber] = sortedOddNumber;
+                arr[i] = first;
+                }
+            }
+            return arr;
+            }
+            </code>
+        </pre>
+                        </div> -->
+                        <!-- <div class="experience-item__link_descr">
+                            <div class="experience-item__name">Code example</div>
+                            <div class="experience-item__type">Sort the odd</div>
+                        </div> -->
+                    <!-- </div> -->
+                    <div class="experience-item">
+                        <a href="https://volhabukhal.github.io/" class="experience-item__link">
+                          <img src="./images/works/uber.jpg" alt="uber" class="experience-item__img">
+                        </a>
+                        <div class="experience-item__link_descr">
+                          <div class="experience-item__name">Uber landing page</div>
+                          <div class="experience-item__type">HTML&CSS</div>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                    <a href="https://rolling-scopes-school.github.io/volhabukhal-JSFEPRESCHOOL/js-clock/" class="experience-item__link">
+                        <img src="./images/works/js-clock.png" alt="js-clock" class="experience-item__img">
+                    </a>
+                    <div class="experience-item__link_descr">
+                        <div class="experience-item__name">JS-clock</div>
+                        <div class="experience-item__type">HTML&CSS&JavaScipt</div>
+                    </div>
+                    </div>
+                    <div class="experience-item">
+                    <a href="https://rolling-scopes-school.github.io/volhabukhal-JSFEPRESCHOOL/vertical-slider/" class="experience-item__link">
+                        <img src="./images/works/vertical-slider.png" alt="vertical-slider" class="experience-item__img">
+                    </a>
+                    <div class="experience-item__link_descr">
+                        <div class="experience-item__name">Vertical slider</div>
+                        <div class="experience-item__type">HTML&CSS&JavaScipt</div>
+                    </div>
+                    </div>
+                    <div class="experience-item">
+                    <a href="https://rolling-scopes-school.github.io/volhabukhal-JSFEPRESCHOOL/drum-kit/" class="experience-item__link">
+                        <img src="./images/works/drum-kit.png" alt="drum-kit" class="experience-item__img">
+                    </a>
+                    <div class="experience-item__link_descr">
+                        <div class="experience-item__name">Drum kit</div>
+                        <div class="experience-item__type">JavaScipt</div>
+                    </div>
+                    </div>
+                    <div class="experience-item">
+                    <a href="https://rolling-scopes-school.github.io/volhabukhal-JSFEPRESCHOOL/custom-video-player/" class="experience-item__link">
+                        <img src="./images/works/video-player.png" alt="video-player" class="experience-item__img">
+                    </a>
+                    <div class="experience-item__link_descr">
+                        <div class="experience-item__name">Custom Video player</div>
+                        <div class="experience-item__type">JavaScript</div>
+                    </div>
+                    </div>
+                    <div class="experience-item">
+                    <a href="https://rolling-scopes-school.github.io/volhabukhal-JSFEPRESCHOOL/whack-a-mole/" class="experience-item__link">
+                        <img src="./images/works/whack-a-mole.png" alt="whack-a-mole" class="experience-item__img">
+                    </a>
+                    <div class="experience-item__link_descr">
+                        <div class="experience-item__name">Whack a mole game</div>
+                        <div class="experience-item__type">JavaScript                            
+                        </div>
+                    </div>
+                    </div>
+                </div>
 
-                <div class="experience-item">
-                    <a href="#" class="experience-item__link">
-                      <img src="./img/works/1.jpg" alt="1" class="experience-item__img">
-                    </a>
-                    <div class="experience-item__link_descr">
-                      <div class="experience-item__name">Project Name</div>
-                      <div class="experience-item__type">User Interface Design</div>
-                    </div>
-                  </div>
-                  <div class="experience-item">
-                    <a href="#" class="experience-item__link">
-                      <img src="./img/works/2.jpg" alt="2" class="experience-item__img">
-                    </a>
-                    <div class="experience-item__link_descr">
-                      <div class="experience-item__name">Project Name</div>
-                      <div class="experience-item__type">User Interface Design</div>
-                    </div>
-                  </div>
-                  <div class="experience-item">
-                    <a href="#" class="experience-item__link">
-                      <img src="./img/works/3.jpg" alt="3" class="experience-item__img">
-                    </a>
-                    <div class="experience-item__link_descr">
-                      <div class="experience-item__name">Project Name</div>
-                      <div class="experience-item__type">User Interface Design</div>
-                    </div>
-                  </div>
-                  <div class="experience-item">
-                    <a href="#" class="experience-item__link">
-                      <img src="./img/works/4.jpg" alt="4" class="experience-item__img">
-                    </a>
-                    <div class="experience-item__link_descr">
-                      <div class="experience-item__name">Project Name</div>
-                      <div class="experience-item__type">User Interface Design</div>
-                    </div>
-                  </div>
-                  <div class="experience-item">
-                    <a href="#" class="experience-item__link">
-                      <img src="./img/works/5.jpg" alt="5" class="experience-item__img">
-                    </a>
-                    <div class="experience-item__link_descr">
-                      <div class="experience-item__name">Project Name</div>
-                      <div class="experience-item__type">User Interface Design</div>
-                    </div>
-                  </div>
-                  <div class="experience-item">
-                    <a href="#" class="experience-item__link">
-                      <img src="./img/works/6.jpg" alt="6" class="experience-item__img">
-                    </a>
-                    <div class="experience-item__link_descr">
-                      <div class="experience-item__name">Project Name</div>
-                      <div class="experience-item__type">User Interface Design</div>
-                    </div>
-                  </div>
-                  <div class="experience-item">
-                    <a href="#" class="experience-item__link">
-                      <img src="./img/works/7.jpg" alt="7" class="experience-item__img">
-                    </a>
-                    <div class="experience-item__link_descr">
-                      <div class="experience-item__name">Project Name</div>
-                      <div class="experience-item__type">User Interface Design</div>
-                    </div>
-                  </div>
-                  <div class="experience-item">
-                    <a href="#" class="experience-item__link">
-                      <img src="./img/works/8.jpg" alt="8" class="experience-item__img">
-                    </a>
-                    <div class="experience-item__link_descr">
-                      <div class="experience-item__name">Project Name</div>
-                      <div class="experience-item__type">User Interface Design</div>
-                    </div>
-                  </div>
+
+
+                
 
 
                 <div class="experience-work__row">
@@ -210,8 +231,8 @@
                         <div class="experience-work__descr"></div>
                         <div class="experience-work__code">
 <pre>
-    <code>
-// Sort the odd
+    <code class="javascript">
+// Code example
 function sortArray(array) {
     let arr = [...array];  
     let oddNumber = arr.filter( (num) => num%2);
@@ -234,21 +255,21 @@ function sortArray(array) {
             <section class="section more" id="more">
                 <h2 class="title more-title">More about myself</h2>
                 <div class="more__row">
-                    <div class="more-background">
+                    <div class="more-item">
                         <h3 class="subtitle more-subtitle">Background</h3>
                         <div class="more-background__descr">
                             I have not experience in frontend production yet, only studding projects.
                         </div>
                     </div>
-                    <div class="more-languages">
+                    <div class="more-item">
                         <h3 class="subtitle more-subtitle">Languages</h3>
                         <ul class="list more-list">
-                            <li class="list-item more-list-item">English / B2</li>
+                            <li class="list-item more-list-item">English / B1-B2</li>
                             <li class="list-item more-list-item">Belarusian / Native</li>
                             <li class="list-item more-list-item">Russian / Native</li>
                         </ul>
                     </div>
-                          <div class="more-hobbies">
+                          <div class="more-item">
                         <h3 class="subtitle more-subtitle">Hobbies</h3>
                         <ul class="list more-list">
                             <li class="list-item more-list-item">Sport: voleyball, ski&skates</li>
