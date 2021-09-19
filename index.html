@@ -5,54 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Volha Bukhal</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="default.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="header__row">
-                <div class="header-left">
-                    <h1 class="title header-title">Volha Bukhal</h1>
-                    <h2 class="header-subtitle">Beginner web developer</h2>
-                </div>
-                <div class="header-img__wrapper">
-                    <img src="./images/main.JPG" alt="cv-picture" class="header-img__wrapper_img" width="250" height="250">
+            <div class="container">
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__list-item">
+                            <a href="#contacts" class="header__list-item_link">Contacts</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#about-me" class="header__list-item_link">About me</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#skill" class="header__list-item_link">Skills</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#education" class="header__list-item_link">Education</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#experience" class="header__list-item_link">Experience</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#more" class="header__list-item_link">More</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <span></span>
                 </div>
             </div>
         </header>
         <main>
-            <section class="contacts">
+            <section class="section introduction">
+                <div class="container">
+                    <div class="introduction__row">
+                        <div class="introduction-left">
+                            <h1 class="title introduction-title">Volha Bukhal</h1>
+                            <h2 class="introduction-subtitle">Beginner web developer</h2>
+                        </div>
+                        <div class="introduction-img__wrapper">
+                            <img src="./images/main.JPG" alt="cv-picture" class="introduction-img__wrapper_img" width="250" height="250">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section contacts" id="contacts">
                 <h2 class="title contacts-title">Contacts</h2>
                 <ul class="contacts__row">
                     <li class="contacts-phone">Cell phone: +375297635150</li>
                     <li class="contacts-email">E-mail: o.bukhal@gmail.com</li>
+                    <li class="contacts-discord">Discord: volha#2795</li>
                     <li class="contacts-github">
                         <a class="contacts-github__link" href="https://github.com/VolhaBukhal" target="_blank">GitHub: VolhaBukhal</a>
                     </li>
                 </ul>
             </section>
 
-            <section class="about-me">
+            <section class="section about-me" id="about-me">
                 <h2 class="title about-me-title">About myself</h2>
                 <div class="about-me__descr">
                   <p>I have been working as scientist for a more then 10 year in a field of physics
-                       and radioecologist by specialization. But for the last year I am interesting
-                        in frontend development and have an goal to change my job in upcoming year.
+                       and radioecologist by specialization. But for the last year I have become an interest
+                        in frontend development and have an goal to change my job in the near future.
                          I like see the result immediate of the work and frontend is ideal for that.
                           Simultaneously I know that immediate result could be only after hardworking
-                           and existing study and don't afraid of it, my slogan - <q>never give up and keep
+                           and passionate study and don't afraid of it, my slogan - <q>never give up and keep
                             going studding and practice.</q></p>
                 </div>
             </section>
 
-            <section class="skill">
+            <section class="section skill" id="skill">
                 <h2 class="title skill-title">My skills</h2>
                 <div class="skill__row">
                     <ul class="list skill-list list">
                         <li class="list__item skill-list__item">HTML&CSS</li>
                         <li class="list__item skill-list__item">SCSS/SASS/LESS</li>
                         <li class="list__item skill-list__item">Markdown</li>
-                        <li class="list__item skill-list__item">Blind typing (Belarusian/Russian/English)</li>
+                        <li class="list__item skill-list__item">Blind typing</li>
                     </ul>    
                     <ul class="list skill-list">
                         <li class="list__item skill-list__item">Gulp/Parcel</li>
@@ -63,23 +100,129 @@
 
             </section>
 
-            <section class="experience-work">
-                <h2 class="title experience-work-title">My experience and work</h2>
+            <section class="section education" id="education">
+                <h2 class="title experience-work-title">My education</h2>
+                <div class="education__row">
+                    <div class="education-item">
+                        <h3 class="subtitle education-subtitle">Main education</h3>
+                        <ul class="list education-main__list">
+                            <li class="list__item education__item">
+                                <p><span class="check">&#10003;</span> International Sakharov Environmental University, Minsk (2003-2008)</p>
+                            </li>
+                            <li class="list__item education__item">
+                                <p> <span class="check">&#10003;</span> Graduate School of the National Academy of Sciences of Belarus, Minsk (2012-2013)  </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="education-item">
+                        <h3 class="subtitle education-subtitle">IT education</h3>
+                        <ul class="list education-it__list">
+                            <li class="list__item education__item">
+                                <a target="_blank" href="https://www.udemy.com/course/webdeveloper/learn/lecture/21483582?start=0#overview"> <span class="check">&#10003;</span> Udemy course: WEB-developer 2020</a>
+                            </li>
+                            <li class="list__item education__item">
+                                <a target="_blank" href="https://teachmeskills.by/kursy-programmirovaniya/frontend-html-css-javascript-minsk"> <span class="check">&#10003;</span> IT school TeachMeSkills: Front End developer</a>
+                            </li>
+                            <li class="list__item education__item">
+                                <a target="_blank" href="https://rs.school/js-stage0/"> <span class="check">&#10003;</span> The Rolling Scopes course: JavaScript/Front-end. Stage0</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+            </section>
+
+            <section class="section experience" id="experience">
+                <h2 class="title experience-work-title">My experience</h2>
                 <div class="experience-work__row">
-                    <ul class="list experience-work-list">
-                        <li class="list__item experience-work__item">
-                            <a href="https://www.udemy.com/course/webdeveloper/learn/lecture/21483582?start=0#overview">Udemy course: WEB-developer 2020</a>
-                        </li>
-                        <li class="list__item experience-work__item">
-                            <a href="https://teachmeskills.by/kursy-programmirovaniya/frontend-html-css-javascript-minsk">IT school TeachMeSkills: Front End developer</a>
-                        </li>
-                    </ul>
-                    <div class="experience-work__right">
-                        <div class="experience-work__descr"></div>
-                        <div class="experience-work__code">
+                    <!-- <div class="experience-item"> -->
+                        <!-- <a href="#" class="experience-item__link">
+                            <img src="./images/works/code-example.png" alt="code-example" class="experience-item__img">
+                        </a> -->
+                        <!-- <div class="modal">
+                            <button class="close-modal">&times;</button>
+        <pre>
+            <code>
+        function sortArray(array) {
+            let arr = [...array];  
+            let oddNumber = arr.filter( (num) => num%2);
+            let sortedOddNumber = oddNumber.sort( (a, b) => a - b);
+            for (let i = 0; i &lt; arr.length; i++) {
+                if (arr[i]%2) {
+                [first, ...sortedOddNumber] = sortedOddNumber;
+                arr[i] = first;
+                }
+            }
+            return arr;
+            }
+            </code>
+        </pre>
+                        </div> -->
+                        <!-- <div class="experience-item__link_descr">
+                            <div class="experience-item__name">Code example</div>
+                            <div class="experience-item__type">Sort the odd</div>
+                        </div> -->
+                    <!-- </div> -->
+                    <div class="experience-item">
+                        <a href="https://volhabukhal.github.io/" class="experience-item__link">
+                          <img src="./images/works/uber.jpg" alt="uber" class="experience-item__img">
+                        </a>
+                        <div class="experience-item__link_descr">
+                          <div class="experience-item__name">Uber landing page</div>
+                          <div class="experience-item__type">HTML&CSS</div>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                    <a href="https://rolling-scopes-school.github.io/volhabukhal-JSFEPRESCHOOL/js-clock/" class="experience-item__link">
+                        <img src="./images/works/js-clock.png" alt="js-clock" class="experience-item__img">
+                    </a>
+                    <div class="experience-item__link_descr">
+                        <div class="experience-item__name">JS-clock</div>
+                        <div class="experience-item__type">HTML&CSS&JavaScipt</div>
+                    </div>
+                    </div>
+                    <div class="experience-item">
+                    <a href="https://rolling-scopes-school.github.io/volhabukhal-JSFEPRESCHOOL/vertical-slider/" class="experience-item__link">
+                        <img src="./images/works/vertical-slider.png" alt="vertical-slider" class="experience-item__img">
+                    </a>
+                    <div class="experience-item__link_descr">
+                        <div class="experience-item__name">Vertical slider</div>
+                        <div class="experience-item__type">HTML&CSS&JavaScipt</div>
+                    </div>
+                    </div>
+                    <div class="experience-item">
+                    <a href="https://rolling-scopes-school.github.io/volhabukhal-JSFEPRESCHOOL/drum-kit/" class="experience-item__link">
+                        <img src="./images/works/drum-kit.png" alt="drum-kit" class="experience-item__img">
+                    </a>
+                    <div class="experience-item__link_descr">
+                        <div class="experience-item__name">Drum kit</div>
+                        <div class="experience-item__type">JavaScipt</div>
+                    </div>
+                    </div>
+                    <div class="experience-item">
+                    <a href="https://rolling-scopes-school.github.io/volhabukhal-JSFEPRESCHOOL/custom-video-player/" class="experience-item__link">
+                        <img src="./images/works/video-player.png" alt="video-player" class="experience-item__img">
+                    </a>
+                    <div class="experience-item__link_descr">
+                        <div class="experience-item__name">Custom Video player</div>
+                        <div class="experience-item__type">JavaScript</div>
+                    </div>
+                    </div>
+                    <div class="experience-item">
+                    <a href="https://rolling-scopes-school.github.io/volhabukhal-JSFEPRESCHOOL/whack-a-mole/" class="experience-item__link">
+                        <img src="./images/works/whack-a-mole.png" alt="whack-a-mole" class="experience-item__img">
+                    </a>
+                    <div class="experience-item__link_descr">
+                        <div class="experience-item__name">Whack a mole game</div>
+                        <div class="experience-item__type">JavaScript                            
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="example-code">
 <pre>
-    <code>
-// Sort the odd
+    <code class="javascript">
+// Code example
 function sortArray(array) {
     let arr = [...array];  
     let oddNumber = arr.filter( (num) => num%2);
@@ -93,31 +236,28 @@ function sortArray(array) {
     return arr;
     }
     </code>
-</pre>
-                        </div>
-                    </div>    
-                </div>
+</pre> </div>
             </section>
             
-            <section class="more">
+            <section class="section more" id="more">
                 <h2 class="title more-title">More about myself</h2>
                 <div class="more__row">
-                    <div class="more-background">
-                        <h3 class="more-subtitle">Background</h3>
+                    <div class="more-item">
+                        <h3 class="subtitle more-subtitle">Background</h3>
                         <div class="more-background__descr">
                             I have not experience in frontend production yet, only studding projects.
                         </div>
                     </div>
-                    <div class="more-languages">
-                        <h3 class="more-subtitle">Languages</h3>
+                    <div class="more-item">
+                        <h3 class="subtitle more-subtitle">Languages</h3>
                         <ul class="list more-list">
-                            <li class="list-item more-list-item">English / B2</li>
+                            <li class="list-item more-list-item">English / B1-B2</li>
                             <li class="list-item more-list-item">Belarusian / Native</li>
                             <li class="list-item more-list-item">Russian / Native</li>
                         </ul>
                     </div>
-                          <div class="more-hobbies">
-                        <h3 class="more-subtitle">Hobbies</h3>
+                          <div class="more-item">
+                        <h3 class="subtitle more-subtitle">Hobbies</h3>
                         <ul class="list more-list">
                             <li class="list-item more-list-item">Sport: voleyball, ski&skates</li>
                             <li class="list-item more-list-item ">Music: piano. All my life I desire to play the piano and only now my dream start coming true. I've started learning to play the piano in 2020 and really like it.</li>
@@ -130,7 +270,7 @@ function sortArray(array) {
         <footer class="footer">
             <div class="footer__row">
                 <div class="footer-github">
-                    <a class="footer_github-link" href="https://github.com/VolhaBukhal" target="_blank"> VolhaBukhal 
+                    <a class="footer_github-link" href="https://github.com/VolhaBukhal" target="_blank"> <span class="gh-name">VolhaBukhal</span> 
                         <svg class="octicon octicon-mark-github v-align-middle" height="25" width="25" viewBox="0 0 16 16" version="1.1"  aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
                     </a>
                 </div>
@@ -147,8 +287,7 @@ function sortArray(array) {
         </footer>
     </div>
 
-
-
-    
+    <script src="script.js"></script>
+   
 </body>
 </html>
