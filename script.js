@@ -44,3 +44,6 @@ workItems.forEach(item => item.addEventListener('click', () => {
     }
 
 }))
+
+
+// works slider
