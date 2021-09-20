@@ -682,6 +682,9 @@ pre{
     .dot.active {
         background-color: var(--text-grey-dark);
     }
+    .example-code{
+        padding: 0;
+    }
 }
 @media(max-width: 420px) {
     .introduction-img__wrapper {
