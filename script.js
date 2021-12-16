@@ -47,3 +47,39 @@ workItems.forEach(item => item.addEventListener('click', () => {
 
 
 // works slider
+
+function activeVideo(index) {
+    for(video of videos) {
+      video.classList.remove('active');
+      // stoped and go back to beginner of video befor set active to next video
+      if(video.played) {
+        video.pause();
+        video.currentTime = 0;
+      }
+    }
+    videos[index].classList.add('active'); 
+    video = videos[index];
+    togglePlay()
+    updateButton()
+    
+  }
+  
+  function nextVideo() {
+    if(index == videos.length - 1) {
+      index = 0;
+      activeVideo(index);
+    } else {
+      index++;
+      activeVideo(index);
+    }
+  }
+  
+  function prevVideo() {
+    if(index == 0 ) {
+      index = videos.length - 1;
+      activeVideo(index);
+    } else {
+      index--;
+      activeVideo(index);
+    }
+  }
