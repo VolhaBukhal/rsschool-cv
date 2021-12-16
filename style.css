@@ -644,14 +644,13 @@ pre{
         position: absolute;
         display: block;
         width: 30px;
-        height: 69%;
+        height: 100%;
         font-size: 4rem;
         border: none;
         color: var(--text-greay-dark);
-        /* background-color: var(--text-grey); */
         opacity: 0.7;
-
     }
+
     .prev {
         top: 0;
         left: -12px;
@@ -707,7 +706,7 @@ pre{
         height: 20px;
     }
     .prev, .next{
-        height: 60%;
+        height: 100%;
 
 }
 
